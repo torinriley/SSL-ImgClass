@@ -5,16 +5,25 @@ This project implements a Self-Supervised Learning (SSL) framework using the CIF
 ---
 
 ## **Features**
-- **Data Augmentation**:
-  - Random cropping, flipping, color jitter, grayscale conversion, Gaussian blur, and normalization.
-- **Backbone Architecture**:
-  - ResNet-18 with a custom projection head.
-- **Contrastive Learning**:
-  - Contrastive loss function with positive and negative pair sampling.
-- **Optimization**:
-  - Gradient clipping and weight decay for numerical stability.
-- **Model Checkpointing**:
-  - Save model weights at the end of each epoch.
+**Data Augmentation**:
+
+- Random cropping, flipping, color jitter, grayscale conversion, Gaussian blur, and normalization.
+  
+**Backbone Architecture**:
+  
+- ResNet-18 with a custom projection head.
+  
+**Contrastive Learning**:
+  
+- Contrastive loss function with positive and negative pair sampling.
+
+**Optimization**:
+  
+- Gradient clipping and weight decay for numerical stability.
+  
+**Model Checkpointing**:
+
+ - Save model weights at the end of each epoch.
 
 
 ## **How It Works**
